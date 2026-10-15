@@ -30,7 +30,7 @@ public class CalculatorApp {
         System.out.println("Please select an option:  M");
 
         System.out.println();
-        System.out.println(result + firstNumber + secondNumber);
+        System.out.println(firstNumber + " * " + secondNumber + " = " + result);
 
 
 
