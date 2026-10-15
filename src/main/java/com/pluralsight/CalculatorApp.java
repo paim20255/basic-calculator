@@ -22,10 +22,15 @@ public class CalculatorApp {
 
         int result = firstNumber * secondNumber;
 
+        System.out.println("Possible calculations: ");
         System.out.println("(A)dd" );
         System.out.println("(S)ubtract");
-        System.out.println('M');
-        System.out.println('D');
+        System.out.println("(M)ultiply");
+        System.out.println("(D)ivide");
+        System.out.println("Please select an option:  M");
+
+        System.out.println();
+        System.out.println(result + firstNumber + secondNumber);
 
 
 
